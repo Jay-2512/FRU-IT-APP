@@ -1,2 +1,2 @@
-# fru-it-app
+# FRU-IT
 Ripeness and decay spotting of mango fruit
