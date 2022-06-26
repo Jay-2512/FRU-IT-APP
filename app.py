@@ -68,7 +68,7 @@ with st.container():
             st.markdown("""---""")
             message, output, opmsg = ripeness_detection(img_path)
             # st.metric(label="", value=message) # here
-            st.markdown(f"<h6 style='text-align: center; color: gray;'>{message}</h6>", unsafe_allow_html=True)
+            st.markdown(f"<h6 style='text-align: center; color: whitesmoke;'>{message}</h6>", unsafe_allow_html=True)
 
             st.markdown("""---""")
             if output is not None:
