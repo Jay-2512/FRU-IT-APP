@@ -112,6 +112,4 @@ class Proc():
                 opmsg = 'No decay'
                 print('No decay')
 
-        cv2.waitKey(0)
-
         return img, opmsg
