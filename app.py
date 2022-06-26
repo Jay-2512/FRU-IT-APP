@@ -67,7 +67,9 @@ with st.container():
         if st.button("Detect Ripeness", help="Click to detect the ripeness of the mango"):
             st.markdown("""---""")
             message, output, opmsg = ripeness_detection(img_path)
-            st.metric(label="", value=message) # here
+            # st.metric(label="", value=message) # here
+            st.markdown(f"<h7 style='text-align: center; color: gray;'>{message}</h4>", unsafe_allow_html=True)
+
             st.markdown("""---""")
             if output is not None:
                 st.markdown("<h4 style='text-align: center; color: gray;'>Processed Image 🖼️</h4>", unsafe_allow_html=True)
